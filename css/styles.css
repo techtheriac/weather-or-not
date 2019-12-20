@@ -1,0 +1,64 @@
+/*Layout*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/*
+body > * {
+  border: 1px solid black;
+}
+*/
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Typography*/
+h1 {
+  font-family: "Lekton", sans-serif;
+  font-size: 6em;
+  color: #003e4d;
+}
+
+/*Paint*/
+.cloud_circle.md-48 {
+  color: #96ceb4;
+  font-size: 48px;
+}
+.wb_sunny.md-48 {
+  color: #d9534f;
+  font-size: 48px;
+}
+.star_border.md-48 {
+  color: #ffad60;
+  font-size: 48px;
+}
+
+.search-bar {
+  font-size: 1.6em;
+  padding: 12px;
+  width: 20em;
+  border-radius: 6px 0 0 6px;
+}
+
+.search-button {
+  font-size: 1.6em;
+  padding: 12px;
+  background-color: #003e4d;
+  color: white;
+}
